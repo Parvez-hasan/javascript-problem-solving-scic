@@ -1,5 +1,6 @@
 
 function reverseString(str) {
+
   let reversed = "";
 
   for (let i = str.length - 1; i >= 0; i--) {
@@ -11,7 +12,3 @@ function reverseString(str) {
 }
 
 console.log(reverseString("hello"));
-
-
-console.log(reverseString("OpenAI"));
-console.log(reverseString("JavaScript"));console.log(reverseString("12345"));
